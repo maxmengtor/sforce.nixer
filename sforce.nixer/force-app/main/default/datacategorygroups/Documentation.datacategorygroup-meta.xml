@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>User Manual</label>
+            <name>user_manual</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Online Help</label>
+            <name>online_help</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Quick Reference</label>
+            <name>quick_reference</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Tech Tips</label>
+            <name>tech_tips</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Documentation</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

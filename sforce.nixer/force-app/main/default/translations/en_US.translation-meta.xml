@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Project Management --></label>
+        <name>Project_Management</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Resume Management --></label>
+        <name>Resume_Management</name>
+    </customApplications>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>S_0ba2e6ab_9c08_4b7a_87f3_5b68bf4f0374</name>
+            </choices>
+            <choices>
+                <name>S_2aa21796_600b_4ebf_83aa_3431b46be5c2</name>
+            </choices>
+            <choices>
+                <name>S_a030cd2e_a554_4f9b_b1c4_fc5204e0ee91</name>
+            </choices>
+            <choices>
+                <name>S_a1463a18_d76c_4274_8e15_61e79c72a22b</name>
+            </choices>
+            <choices>
+                <name>S_cd2463ae_e996_41b8_8cd5_09ff5c96ab3a</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>q_40f91fd5_0b85_4fae_b091_de3eea2a7597</name>
+                </fields>
+                <fields>
+                    <name>q_721ad308_a96c_4e61_9bc0_fd4508366911</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>q_2ffde434_ae6b_480c_a99a_aed434e128ef</name>
+                </fields>
+                <fields>
+                    <name>q_dc14e900_9692_49e1_8dd0_6065fe1c44a7</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>net_promoter_score</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_OfflineCaseQuickAction_08h8b000000kA3h_1650432685807 --></label>
+        <name>Snapins_Case_OfflineCaseQuickAction_08h8b000000kA3h_1650432685807</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h8b000000kA3h_1650432686703 --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h8b000000kA3h_1650432686703</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h8b000000kA3h_1650432686667 --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h8b000000kA3h_1650432686667</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Accounts with Projects with Project Deliverables --></description>
+        <label><!-- Accounts with Projects with Project Deliverables --></label>
+        <name>Accounts_with_Projects_with_Project_Deliverables</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Project Deliverables --></label>
+            <name>Project Deliverables</name>
+        </sections>
+        <sections>
+            <label><!-- Projects --></label>
+            <name>Projects</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>
